@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
+    "init": "node lib/makeLink",
+    "build": "node lib/generateAll",
+    "clean": "node lib/cleanAll",
+    "build-translation": "node lib/generateTranslationIndex",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
@@ -17,7 +19,7 @@
     "hexo": "^5.0.2",
     "hexo-component-inferno": "^0.13.0",
     "hexo-deployer-ftpsync": "^0.1.1",
-    "hexo-deployer-git": "^2.1.0",
+    "hexo-deployer-git": "^3.0.0",
     "hexo-deployer-sftp": "^0.4.1",
     "hexo-filter-mathjax": "^0.5.3",
     "hexo-filter-mermaid-diagrams": "^1.0.5",

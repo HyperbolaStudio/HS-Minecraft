@@ -1,0 +1,25 @@
+translation_index:
+  - type: category
+    i18n:
+      zh-CN: 元
+      en: Meta
+      hio: Myatafarenolle
+      hez: 先ㄩㄈ序
+  - type: category
+    i18n:
+      zh-CN: 城市轨道交通线路
+      en: "Urban Rail Transit Line"
+      hio: "Lin de Durutoluci Damineohav zuin Negōtoli"
+      hez: "城市轨ㄡ路ㄌㄧ交ㄖㄨ通ㄌㄨㄒㄩ线"
+  - type: tag
+    i18n:
+      zh-CN: 地铁线路
+      en: "Metro Line"
+      hio: "Lin Metro"
+      hez: "地轨线"
+  - type: tag
+    i18n:
+      zh-CN: 采用第二代地铁建设标准的地铁设施
+      en: "Metro Facilities Using the Second-generation Metro Construction Standard"
+      hio: "Etūmak Metro io Norme Dik-2 Generacion de Konstrukcion Metro"
+      hez: "第二代地轨建设标准用之地轨做ㄜ件"
