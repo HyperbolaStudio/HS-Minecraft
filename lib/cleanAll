@@ -1,0 +1,16 @@
+#!/bin/sh
+i18n_list=($(./lib/i18nList))
+pwd=$(pwd)
+./lib/injectMoment
+echo Cleaning: Current Directory
+hexo clean
+for raw in ${i18n_list[@]}
+do
+    entrie=(${raw//:/ })
+    p=${entrie[0]}
+    dir=${entrie[1]}
+    cd $dir
+    echo Cleaning: $p
+    hexo clean
+    cd $pwd
+done

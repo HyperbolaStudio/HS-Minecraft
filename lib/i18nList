@@ -1,0 +1,3 @@
+#!/bin/sh
+i18n_list=($(node -e "console.log(Object.entries(require('./lib/i18nList.json')).map(x=>x[0]+':'+x[1]).join(' '))"))
+echo ${i18n_list[*]}

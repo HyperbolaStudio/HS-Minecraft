@@ -1,0 +1,18 @@
+#!/bin/env sh
+copy_list=('node_modules' 'scaffolds' 'themes' 'package.json' 'package-lock.json')
+i18n_list=($(./lib/i18nList))
+chmod +x ./lib/*
+for raw in ${arr[@]}
+do
+    entrie=(${raw//:/ })
+    lang=${entrie[0]}
+    dir=${entrie[1]}
+    mkdir -p $dir
+    for file in ${copy_list[@]}
+    do
+        ln -sfT ../hsmc/$file $dir/
+    done
+    ln -sfT ../hsmc/source_$lang $dir/source
+    ln -sf ../hsmc/_config.$lang.yml $dir/_config.yml
+    ln -sf ../hsmc/_config.icarus.$lang.yml $dir/_config.icarus.yml
+done

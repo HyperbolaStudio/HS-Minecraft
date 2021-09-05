@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "init": "node lib/makeLink",
-    "build": "node lib/generateAll",
-    "clean": "node lib/cleanAll",
-    "build-translation": "node lib/generateTranslationIndex",
+    "init": "sh ./lib/init",
+    "build": "./lib/generateAll",
+    "clean": "./lib/cleanAll",
+    "build-translation": "./lib/generateTranslationIndex",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },

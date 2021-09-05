@@ -1,0 +1,18 @@
+#!/bin/sh
+i18n_list=($(./lib/i18nList))
+pwd=$(pwd)
+./lib/injectMoment
+echo Generating: Current Directory
+hexo generate
+for raw in ${i18n_list[@]}
+do
+    entrie=(${raw//:/ })
+    p=${entrie[0]}
+    dir=${entrie[1]}
+    cd $dir
+    echo Generating: $p
+    hexo generate
+    cd $pwd
+    rm -rf ./public/$p
+    cp -r $dir/public ./public/$p
+done
