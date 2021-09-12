@@ -142,8 +142,8 @@ search:
 comment:
     # Name of the comment plugin
     type: valine
-    app_id: 9pYhj8h9PLfuaVxrL5bIhqCp-MdYXbMMI # leancloud application app id
-    app_key: RhyPeQLScbiukkbkKmyjYjLm # leancloud application app key
+    app_id: g7ii1rE2zNwstMYr4d1BBIeB-MdYXbMMI # leancloud application app id
+    app_key: yP4Fs2P7hJg2GtSprpiT9q7h # leancloud application app key
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
