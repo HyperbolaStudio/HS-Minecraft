@@ -14,7 +14,7 @@ Zhodue Metro Line 2 is a metro line in Zhodue City, and it is one of the first m
 
 ## Overview
 
-The construction of this line started in April 2017, and the first phase of the project was constructed along the the old Metro Line 2. The construction of Metro Line 2 adopts the second-generation metro construction standard and is built at a height of 48. Up to now, except for the fourth phase from Zhodue Zyorelen Airport to Zhodue South Station, the rest have been opened to traffic.
+The construction of this line started in April 2017, and the first phase of the project was constructed along the old Metro Line 2. The construction of Metro Line 2 adopts the second-generation metro construction standard and is built at the height of 48. Up to now, except for the fourth phase from Zhodue Zyorelen Airport to Zhodue South Station, the rest have been opened to traffic.
 
 ## List of Stations
 
