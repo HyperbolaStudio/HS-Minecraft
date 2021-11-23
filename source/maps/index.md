@@ -8,4 +8,4 @@ i18n:
     hez: maps
 ---
 
-<iframe src="https://ecs.myxrcrs.cn:1919/" style="width: 100%;height: 40rem;"></iframe>
+<iframe src="https://maps.hsmc.hyperbola.studio/" style="width: 100%;height: 40rem;"></iframe>
